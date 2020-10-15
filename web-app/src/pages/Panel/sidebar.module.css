@@ -1,0 +1,83 @@
+.sidebar {
+  position: fixed;
+  height: 100%;
+  width: 240px;
+  z-index: 1;
+  background-color: #393939;
+  overflow-x: hidden;
+}
+.text {
+  margin-top: 30px;
+  margin-left: 12px;
+  width: 255px;
+  height: 30px;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.separator {
+  margin-top: 12px;
+  width: 100%;
+  height: 0px;
+  border: 1px solid #ffffff;
+  opacity: 1;
+}
+.button {
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 12px;
+  width: 255px;
+  height: 30px;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  opacity: 1;
+  background-color: #393939;
+}
+.button:hover {
+  box-shadow: 0 0 2px 1px rgba(255, 255, 255, 1),
+    0 0 3px 2px rgba(23, 162, 184, 0.8);
+}
+
+.button:active {
+  box-shadow: 0 0 2px 1px rgba(255, 255, 255, 1),
+    0 0 3px 2px rgba(23, 162, 184, 0.8);
+  border-color: #fff;
+}
+
+.button:focus {
+  outline: 0;
+}
+.buttonOut {
+  border: none;
+  cursor: pointer;
+
+  width: 255px;
+  height: 30px;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #393939;
+  opacity: 1;
+  background-color: #fff;
+}
+
+.buttonOut:focus {
+  outline: 0;
+}
+.container {
+  display: flex;
+
+  flex-direction: row;
+}

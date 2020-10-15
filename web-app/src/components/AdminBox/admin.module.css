@@ -1,0 +1,224 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  padding: 26px 54px 8px;
+  margin-left: 300px;
+  margin-top: 16px;
+  width: 560px;
+  height: 500px;
+  background: #d9d9d9;
+  border-radius: 8px;
+  opacity: 1;
+}
+.header {
+  display: grid;
+  grid-template-columns: 200px 240px 70px;
+}
+
+.text {
+  margin-top: 80px;
+  margin-left: 300px;
+  text-align: left;
+  font-family: SF Pro Display;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #393939;
+  opacity: 1;
+}
+.heading {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  margin-top: 60px;
+  color: #393939;
+  width: 200px;
+  height: 20px;
+  padding: 12px 2px;
+  text-align: center;
+  justify-content: center;
+}
+.headingEmail {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  margin-top: 60px;
+  color: #393939;
+  width: 260px;
+  height: 20px;
+  padding: 12px 4px 12px 2px;
+  text-align: center;
+  justify-content: center;
+}
+.headingBlock {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  margin-top: 60px;
+  color: #393939;
+  width: 60px;
+  height: 20px;
+  padding: 12px 12px;
+  text-align: center;
+  justify-content: center;
+}
+.userData {
+  background: #d9d9d9 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  color: #393939;
+  width: 200px;
+  height: 20px;
+  padding: 12px 4px;
+  text-align: left;
+  justify-content: center;
+  list-style: none;
+}
+.userDataEmail {
+  background: #d9d9d9 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  color: #393939;
+  width: 260px;
+  height: 20px;
+  padding: 12px 4px;
+  text-align: left;
+  justify-content: center;
+  list-style: none;
+}
+.userDisplay {
+  display: grid;
+  grid-template-columns: 200px 240px 200px 70px;
+  list-style: none;
+}
+.userDataButton {
+  background: #d9d9d9 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  color: #393939;
+  width: 80px;
+  height: 20px;
+  padding: 12px 2px;
+  text-align: left;
+  justify-content: center;
+}
+.wrapper {
+  position: relative;
+  width: 30%;
+}
+.searchInput {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border: none;
+  width: 80%;
+  opacity: 1;
+  padding: 4px 4px 4px;
+  height: 28px;
+}
+.searchButton {
+  position: absolute;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  width: 20%;
+  height: 36px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-left: none;
+  border: none;
+  background-image: url(./../../assets/search.svg);
+  padding: 10px 10px 10px;
+}
+.searchButton:hover {
+  background-color: #d9d9d9;
+}
+
+.notBlockedButton {
+  margin-left: 30px;
+  width: 20px;
+  height: 20px;
+}
+.isBlockedButton {
+  margin-left: 30px;
+  width: 20px;
+  height: 20px;
+  background-image: url(./../../assets/checkmark.svg);
+  background-repeat: no-repeat;
+}
+
+.buttonAdd {
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  margin-left: 300px;
+  border: none;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border-radius: 10px;
+  opacity: 1;
+}
+.buttonAdd:hover {
+  background-color: #17a2b8;
+}
+.boxFilter {
+  padding: 16px 24px 8px;
+  margin-left: 400px;
+  margin-top: 86px;
+  width: 400px;
+  height: 500px;
+  background: #d9d9d9;
+  border-radius: 8px;
+  opacity: 1;
+  align-items: center;
+}
+.wrapperAdd {
+  position: relative;
+  width: 100%;
+  align-items: center;
+}
+.searchInputAdd {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border: none;
+  margin-left: 30px;
+  width: 80%;
+  opacity: 1;
+  padding: 4px 4px 4px;
+  height: 28px;
+  margin-top: 20px;
+}
+
+.buttonSubmit{
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  margin-top: 100px;
+  margin-left: 140px;
+  border: none;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border-radius: 10px;
+  opacity: 1;
+}
+.buttonSubmit:hover {
+  background-color: #17a2b8;
+}
+.buttonBack{
+  width: 60px;
+  height: 40px;
+  position: relative;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  margin-top: 100px;
+  margin-left: 65px;
+  border: none;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border-radius: 10px;
+  opacity: 1;
+}
+.buttonBack:hover {
+  background-color: #17a2b8;
+}

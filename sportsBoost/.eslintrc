@@ -1,0 +1,33 @@
+{
+  "plugins": ["react-native", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react-native/all",
+    "prettier",
+    "prettier/react"
+  ],
+  "parser": "babel-eslint",
+  "env": {
+    "react-native/react-native": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "no-unused-vars": "off",
+    "no-color-literals": "off",
+    "no-inline-styles": "off",
+    "react-native/split-platform-components": 2,
+    "react-native/no-raw-text": 2,
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "es5",
+        "singleQuote": true,
+        "printWidth": 100
+      }
+    ]
+  }
+}
